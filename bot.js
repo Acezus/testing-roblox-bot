@@ -2,11 +2,6 @@ var discord = require('discord.js');
 var roblox = require('roblox-js');
 var client = new discord.Client();
 
-roblox.login({username: "Revolutionary_BOT", password: "traforlifenerd"}).then((success) => {
-
-}).catch(() => {console.log("Sorry, it failed.");});
-
-
 client.on("ready", () => {
   client.user.setGame(`Making HL3`);
   console.log(`Ready to serve on ${client.guilds.size} servers, for ${client.users.size} users.`);
