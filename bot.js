@@ -19,7 +19,6 @@ client.on('message', (message) => {
     if(isCommand('Hello', message)){
 	    let embed = new Discord.RichEmbed()
 	    .setTitle("Move Along!")
-	    };
     }
 });
 
