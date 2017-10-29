@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const roblox = require('roblox.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
