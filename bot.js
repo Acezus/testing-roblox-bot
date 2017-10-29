@@ -17,10 +17,8 @@ client.on('message', (message) => {
 	if (message.author.bot) return; // Dont answer yourself.
     var args = message.content.split(/[ ]+/)
     if(isCommand('Hello', message)){
-	    message.reply(
-	    let embed = new Discord.RichEmbed()
-	    .setTitle("Move Along!");
-    })
+    	message.reply("Move Along!")
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
