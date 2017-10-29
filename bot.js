@@ -101,5 +101,4 @@ client.on('message', (message) => {
 });
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
-roblox.login(process.env.USERNAME);
-roblox.login(process.env.PASSWORD);
+roblox.login(process.env.USERNAME, PASSWORD);
