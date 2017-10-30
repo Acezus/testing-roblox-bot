@@ -6,7 +6,7 @@ client.on("ready", () => {
   console.log(`Ready to serve on ${client.guilds.size} servers, for ${client.users.size} users.`);
 });
 
-var prefix = 'n!';
+var prefix = '.!';
 function isCommand(command, message){
 	var command = command.toLowerCase();
 	var content = message.content.toLowerCase();
